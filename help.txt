@@ -1,0 +1,7 @@
+https://www.youtube.com/watch?v=9n4Ch2Dgex0
+
+
+pip install streamlit --upgrade
+
+pip install pandas requests
+
