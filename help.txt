@@ -5,3 +5,6 @@ pip install streamlit --upgrade
 
 pip install pandas requests
 
+streamlit run streamlit_app.py 
+http://localhost:8501
+http://192.168.0.90:8501
