@@ -33,9 +33,12 @@ pg = st.navigation(
     }
 )
 
+# --- shared on all pages ---
+st.logo("assets/images/logo.png")
+st.sidebar.text("Made with Love by Freetime..")
+
 
 # --- run navigation ---
-
 pg.run()
 
 
