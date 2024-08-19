@@ -3,7 +3,7 @@ import streamlit as st
 import requests
 
 # --- webhook from pabbly ---
-WEBHOOK_URL = "https://connect.pabbly.com/workflow/sendwebhookdata/IjU3NjUwNTY0MDYzMTA0MzA1MjY1NTUzMjUxM2Ii_pc"
+WEBHOOK_URL = st.secrets["WEBHOOK_URL"]
 
 # --- form validation ---
 def is_valid_email(email):
